@@ -42,3 +42,21 @@ The dataset contains both **numerical and categorical** medical features such as
 
 ## ✅ Results
 The trained model shows promising accuracy in identifying CKD cases and could potentially support healthcare professionals in decision-making processes.
+
+# CKD Prediction Web App
+
+This project is a machine learning–powered web application built using **Streamlit** that helps medical professionals predict whether a patient has Chronic Kidney Disease (CKD) based on various health parameters.
+
+## 🔍 Overview
+
+The project follows a complete machine learning workflow — from data preprocessing and model training to deployment in a simple, interactive web interface.
+
+### 💡 Features
+- Trained a Decision Tree Classifier on a CKD dataset.
+- Saved the model using `pickle` for reuse.
+- Developed a user-friendly web interface using **Streamlit**.
+- Takes in user inputs such as blood pressure, specific gravity, albumin, sugar levels, hemoglobin, etc.
+- Displays prediction results instantly (CKD or Not CKD).
+- Includes a simple login system (optional for demo).
+- Can be deployed easily on [Streamlit Cloud]
+Here is the link to the website https://kidneydiseaspredictor.streamlit.app/
